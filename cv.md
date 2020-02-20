@@ -1,0 +1,4 @@
+- **Mikalai Radomski**
+- contacts: discord Mikalai#1648
+- I am calm, assiduous, executive and responsible
+- Online Java courses and self-education
