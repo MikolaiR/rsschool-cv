@@ -1,6 +1,11 @@
 # Portfolio
-Mikalai Radomski
+![Mikalai Radomski](https://westspectruck.by/storage/images/car-sale/132/900/Ze729s8eQoCY6wruREJ42dkKXb0lGkyQJVcgKroG.webp)
+***Mikalai Radomski***
+
+---
+
 ## Contacts:
+- Belarus, Minsk
 - [GITHUB](https://github.com/MikolaiR)
 - [TELEGRAM](https://t.me/tutwebsite)
 ## About me:
@@ -16,6 +21,8 @@ My strengths lie in my ability to adapt, my dedication to continuous learning, a
 and knowledge. I strive to refine my projects as my expertise grows, always aiming for more efficient and elegant 
 solutions.
 
+---
+
 ## Skills:
 
 Proficient in programming languages such as Java, Kotlin, and PHP, with over 2 years of experience in developing 
@@ -24,33 +31,40 @@ Linux and Windows. Possess basic knowledge of 1C and have experience in creating
 Besides writing and making adjustments in the 1C Enterprise configurator, also experienced in launching and 
 administering it.
 
+---
+
 ## Code example:
 
+```php
+protected function getQuality($oldImagePath): float|int
+    {
+        $fileSize = filesize($oldImagePath);
+        $quality = 100 - ($fileSize / 10240);
+        if ($quality < 35) {
+            $quality = 35;
+        }
+        return $quality;
+    }
 ```
-@foreach($segments as $key => $segment)
-   @if(!(count($segments) === 3 && $key === 1) )
-       @php
-           $url .= '/' . $segment;
-       @endphp
-       <li class="{{ $loop->last ? 'current' : '' }}">
-           <a href="{{ $url }}">{{ $segment }}</a>
-       </li>
-   @endif
-@endforeach
-```
+
+---
 
 ## Experience
 PHP Laravel (website,full stack):
 - [westspectruck](https://westspectruck.by/) - source code is locked by private git settings
 - [zmeika](https://zmeika.pro/) - [source code](https://github.com/MikolaiR/zmeika)
 - [cto25a](https://cto25a.by/) - source code is locked by private git settings
-_and more...
+*and more...*
+
+---
 
 ## Education
 - RSS android developer
 - Android Academy
 - CudeCode
-and self-training
+*and self-training*
+
+---
 
 ## English
 I can read and speak a little.
