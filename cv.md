@@ -1,4 +1,8 @@
 # Portfolio
+### [rsschool-cv](https://github.com/MikolaiR/rsschool-cv)
+
+---
+
 ![Mikalai Radomski](https://westspectruck.by/storage/images/car-sale/132/900/Ze729s8eQoCY6wruREJ42dkKXb0lGkyQJVcgKroG.webp)
 ***Mikalai Radomski***
 
@@ -8,6 +12,7 @@
 - Belarus, Minsk
 - [GITHUB](https://github.com/MikolaiR)
 - [TELEGRAM](https://t.me/tutwebsite)
+- DISCORD *Mikalai*
 ## About me:
 I have been working as a system administrator for four years, managing three servers with expertise in Linux and 
 Windows Server. Additionally, I have experience in web development using PHP and Laravel. I have successfully built 
@@ -36,15 +41,11 @@ administering it.
 ## Code example:
 
 ```php
-protected function getQuality($oldImagePath): float|int
-    {
-        $fileSize = filesize($oldImagePath);
-        $quality = 100 - ($fileSize / 10240);
-        if ($quality < 35) {
-            $quality = 35;
-        }
-        return $quality;
-    }
+function createPhoneNumber($numbersArray) {
+   return '('.implode('', array_slice($numbersArray,0,3)).') '.
+     implode('', array_slice($numbersArray,3,3)).'-'.
+     implode('', array_slice($numbersArray,6,4));
+}
 ```
 
 ---
