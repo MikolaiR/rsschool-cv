@@ -1,0 +1,179 @@
+h1, h2, p, a, code, div, ul, header,  nav, main, footer {
+    padding: 10px 0 0 0;
+    margin: 0;
+    color: white;
+    font-family: "Cambria Math", serif;
+}
+
+.container {
+    padding: 2em 4em 0 4em;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 2em 2em 0 2em;
+    }
+
+}
+
+/*start colors*/
+
+a {
+    color: #d0c4c4;
+}
+a:hover {
+    color: #f10d0d;
+}
+
+/*end colors*/
+
+
+/*start font sizes*/
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p,a,code {
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*end font sizes*/
+
+/* start flex*/
+.flex {
+    display: flex;
+}
+
+.fl-jc-c {
+    justify-content: center;
+}
+
+.fl-al-c {
+    align-items: center;
+}
+
+.fl-jc-sb {
+    justify-content: space-between;
+}
+
+.fl-jc-sa {
+    justify-content: space-around;
+}
+
+.fl-dr-col {
+    flex-direction: column;
+}
+/* end flex*/
+
+/*start markup*/
+.w-100 {
+    width: 100%;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+/*end markup*/
+
+/*start background*/
+.video-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-container > video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*end background*/
+
+/*start header*/
+.container{
+
+}
+
+.header {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.header_photo > img {
+    height: 120px;
+    border-radius: 25%;
+}
+
+.header_name > h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.header_name > h1 {
+    padding: 0;
+    margin: 0;
+}
+
+/*start navbar*/
+.header_nav {
+}
+
+.header_nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header_nav > ul > li {
+    display: inline;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.43);
+    text-transform: uppercase;
+}
+
+.header_nav > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.header_nav > li > a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+/*end navbar*/
+
+.main {
+
+}
+
+.footer {
+
+}
