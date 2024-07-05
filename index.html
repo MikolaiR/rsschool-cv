@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="video-container bg">
+    <video autoplay muted loop id="video-background" poster="https://tutweb.by/images/bg_.png">
+        <source src="https://tutweb.by/videos/blue_.mp4" type="video/mp4">
+    </video>
+</div>
+<div id="container" class="container">
+    <header class="header">
+        <div class="header_photo">
+            <img src="https://westspectruck.by/storage/images/car-sale/132/900/Ze729s8eQoCY6wruREJ42dkKXb0lGkyQJVcgKroG.webp"
+                 alt="my photo" height="120">
+            <p>Mikalai Radomski</p>
+        </div>
+        <div class="header_name">
+            <h1><b>System<br>Administrator</b></h1>
+            <p>PHP Laravel developer</p>
+        </div>
+        <nav class="header_nav">
+            <ul>
+                <li>
+                    <a href="#main_contacts">Contacts</a>
+                </li>
+                <li>
+                    <a href="#main_about">About</a>
+                </li>
+                <li>
+                    <a href="#main_skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#main_code_example">Code example</a>
+                </li>
+                <li>
+                    <a href="#main_english">English</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main_block" id="main_contacts">
+            <h2>Contacts:</h2>
+            <ul>
+                <li>
+                    <a href="https://www.google.by/maps/@53.901519,27.554718z?hl=ru" target="_blank">
+                        Belarus, Minsk
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/MikolaiR" target="_blank">
+                        GITHUB
+                    </a>
+                </li>
+                <li>
+                    <a href="https://t.me/tutwebsite" target="_blank">
+                        TELEGRAM
+                    </a>
+                </li>
+                <li>
+                    <a href="https://discordapp.com/users/660855560517713921/ " target="_blank">
+                        DISCORD Mikalai Radomski (@MikolaiR)
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main_block" id="main_about">
+            <h2>About me:</h2>
+            <p>
+                I have been working as a system administrator for four years, managing three servers with expertise in
+                Linux and Windows Server. Additionally, I have experience in web development using PHP and Laravel.
+                I have successfully built and maintained four active projects from scratch, continuously enhancing
+                them with new ideas.
+            </p>
+        </div>
+        <div id="main_skills" class="main_block">
+            <h2>Skills:</h2>
+            <ul>
+                <li>
+                    <p>Proficient in programming languages such as Java, Kotlin, and PHP, with over 2 years of
+                       experience in developing software products using these languages.</p>
+                </li>
+                <li>
+                    <p>Additionally, skilled in launching, configuring, and administering servers on Linux
+                       and Windows.</p>
+                </li>
+                <li>
+                    <p>Possess basic knowledge of 1C and have experience in creating working configurations from
+                       scratch. Besides writing and making adjustments in the 1C Enterprise configurator, also
+                       experienced in launching and administering it.</p>
+                </li>
+
+            </ul>
+        </div>
+        <div class="main_block" id="main_code_example">
+            <h2>Code example:</h2>
+            <pre>
+                <code>
+function createPhoneNumber($numbersArray) {
+    return'('.implode('', array_slice($numbersArray,0,3)).')'.
+    implode('', array_slice($numbersArray,3,3)).'-'.
+    implode('', array_slice($numbersArray,6,4));
+}
+                </code>
+            </pre>
+        </div>
+        <div class="main_block" id="main_experience">
+            <h2>Experience</h2>
+            <h3>PHP Laravel (website,full stack):</h3>
+            <ul>
+                <li>
+                    <p>
+                        <a href="https://westspectruck.by/" target="_blank">WESTSPECTRUCK</a>
+                        -- source code is locked by private git settings
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="https://zmeika.pro/" target="_blank">ZMEIKA</a> --
+                        <a href="https://github.com/MikolaiR/zmeika" target="_blank">source code</a>
+                    </p>
+
+                </li>
+                <li>
+                    <p>
+                        <a href="https://cto25a.by/" target="_blank">CTO25A</a>
+                        -- source code is locked by private git settings
+                    </p>
+                </li>
+                <li>
+                    <p>and more...</p>
+                </li>
+            </ul>
+
+        </div>
+        <div class="main_block" id="main_education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <p>RSS android developer</p>
+                </li>
+                <li>
+                    <p>Android Academy</p>
+                </li>
+                <li>
+                    <p>CudeCode</p>
+                </li>
+                <li>
+                    <p>and self-training</p>
+                </li>
+            </ul>
+        </div>
+        <div class="main_block" id="main_english">
+            <h2>English:</h2>
+            <p>I can read and speak a little.</p>
+        </div>
+        <a href="#container">&#9650;</a>
+    </main>
+    <footer class="footer">
+        <div class="footer_block">
+            <a href="https://rs.school/courses/javascript-ru" target="_blank">
+                <img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/61cea2636c5a5f660b1070fa262bbd4acc92ec66/tasks/cv/rs-school-logo.svg"
+                     height="80" alt="rolling-scopes-school">
+            </a>
+
+        </div>
+        <div class="footer_block">
+            <h3>Links:</h3>
+            <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank">RS School</a>
+            <a href="https://github.com/MikolaiR" target="_blank">GITHUB MikolaiR</a>
+        </div>
+        <div class="footer_block">
+            <h3>Sitemap</h3>
+            <ul>
+                <li>
+                    <a href="#main_contacts">Contacts</a>
+                </li>
+                <li>
+                    <a href="#main_about">About</a>
+                </li>
+                <li>
+                    <a href="#main_skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#main_code_example">Code example</a>
+                </li>
+                <li>
+                    <a href="#main_english">English</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_block">
+            <h3>Information</h3>
+            <p>Created © 2024</p>
+            <p></p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
